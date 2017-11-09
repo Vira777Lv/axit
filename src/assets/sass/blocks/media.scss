@@ -1,0 +1,58 @@
+@media only screen and (max-width: 992px) {
+  .navbar-nav{
+    display: none;
+    text-align: center;
+    width: 100%;
+  }
+  .main-menu li:hover {
+    background-color: rgba(253,154,89, 0.8);
+    cursor: pointer;
+    transition: .4s;
+  }
+  .header-content, .social-media {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .content-left h2 {  margin-bottom: 0;  }
+  .content-left h2::after { display: none }
+  .content-left p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .download {  padding: 10px 70px;  }
+  .free-trial {
+    width: 100%;
+    margin-top: 50px;
+  }
+  input[type=submit] {font-size: 18px}
+  input[type=password],
+  input[type=email],
+  input[type=text] {
+    width: 90%;
+  }
+  .social {  padding-left: 0;  }
+  .social li {  padding: 0 10px;  }
+}
+@media only screen and (max-width: 768px) {
+  .header-content, .social-media {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .social {  padding-left: 0;  }
+  .social li {  padding: 0 5px;  }
+
+  .social a {  font-size: 26px;  }
+
+  .free-trial {
+    width: 100%;
+    margin-top: 50px;
+  }
+  input[type=password],
+  input[type=email],
+  input[type=text] {
+    width: 90%;
+  }
+  .download {  padding: 10px 70px;  }
+}
